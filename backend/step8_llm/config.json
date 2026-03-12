@@ -1,0 +1,7 @@
+{
+    "backend": "zhipu",
+    "zhipu": {
+      "model": "glm-4",
+      "api_key_env": "ZHIPUAI_API_KEY"
+    }
+  }

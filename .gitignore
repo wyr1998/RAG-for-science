@@ -1,0 +1,51 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Build outputs / binaries
+frontend/dist/
+backend/dist/
+backend/build/
+build/
+dist/
+paper_output/
+backend_output/
+src-tauri/target/
+
+# Bundled runtimes and large vendor trees
+backend/jdk-17.0.18+8-jre/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+
+# PyInstaller
+*.manifest
+*.spec.log
+
+# Scala/sbt (pdffigures2) - clone/build locally, see backend/README.md
+backend/pdffigures2/
+
+# Generated data (optional: remove if you want to track)
+indexes/
+*.faiss
+*.db
+
+# Env and logs
+.env
+.env.local
+*.log
+
+# IDE and OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db

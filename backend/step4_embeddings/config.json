@@ -1,0 +1,7 @@
+{
+    "backend": "zhipu_embedding3",
+    "zhipu_embedding3": {
+      "model": "embedding-3",
+      "dimensions": 1024
+    }
+  }
