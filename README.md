@@ -110,7 +110,7 @@ No Python or Java installation is required; the app includes everything it needs
 
 ---
 
-## Note on scope and future updates
+## Note and future updates
 
 - This app is intended for **research papers** only.
 
@@ -119,3 +119,5 @@ No Python or Java installation is required; the app includes everything it needs
 - Support for **other APIs** is planned.
 
 - Integration with **Semantic Scholar** and **OpenScholar** will be added in a later release.
+
+- To close the app, it is necessary to terminate the "backend.exe" process in the background.

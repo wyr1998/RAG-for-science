@@ -3,14 +3,14 @@ node_modules/
 frontend/node_modules/
 
 # Build outputs / binaries
+build/
+dist/
 frontend/dist/
 backend/dist/
 backend/build/
-build/
-dist/
+src-tauri/target/
 paper_output/
 backend_output/
-src-tauri/target/
 
 # Bundled runtimes and large vendor trees
 backend/jdk-17.0.18+8-jre/
@@ -37,6 +37,7 @@ backend/pdffigures2/
 indexes/
 *.faiss
 *.db
+papers/
 
 # Env and logs
 .env
@@ -44,6 +45,7 @@ indexes/
 *.log
 
 # IDE and OS
+.cursor/
 .idea/
 .vscode/
 *.swp
